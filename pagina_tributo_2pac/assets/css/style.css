@@ -2,9 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
-header{
+body{
     margin: auto;
-    width: 1280px;
+    width: 100%;
+    max-width: 1280px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
     height: 599px;
     background-color:black;
     background-image: url('fundo_2pac.jpg');
@@ -16,4 +22,88 @@ footer{
     margin: auto;
     width: 1280px;
     height: 120px;
+}
+.nome_principal{
+    flex: 1;
+    font-family: SF Comic Script;
+    font-size: 200px;
+    color: white;
+    margin-left: 50px;
+}
+.sobrenome{
+    flex: 1;
+    font-family: SF Comic Script Shaded;
+    font-size: 100px;
+    color: #686868;
+    margin-left: 300px;
+}
+.data_nasc{
+    flex: 1;
+    font-family: Segoe UI;
+    font-size: 36px;
+    color: #482314;
+    margin-left: 760px;
+    margin-top: 190px;
+}
+.linha_tempo{
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: #BC762A;
+    padding: 30px;
+    display: flex;
+}
+
+.biografia{
+    margin-top: 30px;
+    padding: 30px;
+}
+h2{
+    font-family: SF Slapstick Comic;
+    font-size: 48px;
+    color: #262524;
+}
+p{
+    font-family: Segoe UI;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+}
+ol{
+    flex: 1;
+    margin-left: 50px;
+}
+li{
+    font-family: Segoe UI;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+.linha_tempo img{
+    flex: 1;
+    width: 200px;
+}
+input[type=submit]{
+    width: 405px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #262524;
+    background-color: #D3D3D3;
+    font-family: SF Slapstick Comic;
+    font-size: 36px;
+    border: solid 3px #000;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    color: #D3D3D3;
+    background-color: #262524;
+}
+.button{
+    margin-left: 450px;
+}
+.rodape{
+    color: #D3D3D3;
+    padding: 30px;
 }
